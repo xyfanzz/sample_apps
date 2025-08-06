@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/omg"
-    android:padding="16dp">
+    android:background="@drawable/pp">
 
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
+
         <TextView
-            android:text="Customers"
+            android:text="Customer"
             android:textSize="24sp"
             android:textStyle="bold"
             android:layout_width="wrap_content"
@@ -60,7 +63,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Christian Kumis"
+                    android:text="rizki"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -71,6 +74,7 @@
                     android:src="@android:drawable/ic_menu_edit" />
 
                 <ImageView
+                    android:id="@+id/btndelete"
                     android:layout_width="24dp"
                     android:layout_height="24dp"
                     android:src="@android:drawable/ic_menu_delete" />
@@ -79,17 +83,17 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Date of Birth: 16/01/2001" />
+                android:text="Date of Birth: 21/11/2007" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Phone Number: +63 3 1234 9088" />
+                android:text="Phone Number: +62 822 63010368" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Email: kumis@gmail.com" />
+                android:text="Email:rizki@123gmail.com" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -98,4 +102,4 @@
         </LinearLayout>
 
     </LinearLayout>
-</ScrollView>
+</RelativeLayout>
